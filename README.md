@@ -1,1 +1,0 @@
-loops condition and pursing
