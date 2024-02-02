@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script provides answers to questions about UDP and TCP.
+
+# Question 1: Which statement is correct for the TCP box?
+# Answer: It is a protocol that is transferring data in a slow way but surely
+echo "The TCP protocol transfers data in a slow but reliable way."
+
+# Question 2: Which statement is correct for the UDP box?
+# Answer: It is a protocol that is transferring data in a fast way and might lose data along in the process
+echo "The UDP protocol transfers data in a fast way but may lose data in the process."
+
+# Question 3: Which statement is correct for the TCP worker?
+# Answer: Have you received boxes x, y, z?
+echo "The TCP worker may ask: Have you received boxes x, y, z?"
+
