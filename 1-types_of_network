@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script provides answers to questions about types of networks.
+
+# Question 1: What type of network is a computer in a local area connected to?
+# Answer: LAN
+echo "A computer in a local area is connected to a LAN."
+
+# Question 2: What type of network could connect an office in one building to another office in a building a few streets away?
+# Answer: WAN
+echo "An office in one building can be connected to another office in a building a few streets away through a WAN."
+
+# Question 3: What network do you use when you browse www.google.com from your smartphone (not connected to the Wifi)?
+# Answer: Internet
+echo "When browsing www.google.com from your smartphone (not connected to Wi-Fi), you are using the Internet."
+
