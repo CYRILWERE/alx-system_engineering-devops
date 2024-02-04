@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script displays all active IPv4 IPs on the machine
+
+# Use 'ifconfig' to get the network information and filter out IPv4 addresses
+ifconfig | grep -oE 'inet (addr:)?([0-9]*\.){3}[0-9]*' | awk '{print $2}' | sed 's/addr://'
+
