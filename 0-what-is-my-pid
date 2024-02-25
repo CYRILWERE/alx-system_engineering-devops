@@ -2,5 +2,10 @@
 # This script displays its own PID.
 
 # Display the PID of the current script
+<<<<<<< HEAD
 echo $$
+=======
+echo $$  
+
+>>>>>>> bc12d6d9fe2d4f172cd03cd8c0786d88eded4110
 

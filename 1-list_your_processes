@@ -3,4 +3,7 @@
 
 # Use ps command to display processes with user-oriented format and hierarchy
 ps aux --forest
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc12d6d9fe2d4f172cd03cd8c0786d88eded4110
