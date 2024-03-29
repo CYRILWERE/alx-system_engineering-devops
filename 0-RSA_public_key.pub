@@ -1,1 +1,1 @@
-ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa -N "" -C "werecyril20@gmail.com"
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILmf9h8s8SiyUTCpfc4Q1M+RPc/WMbC2FhRNy96iLlIB werecyril20@gmail.com
