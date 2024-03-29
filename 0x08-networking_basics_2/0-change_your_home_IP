@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script configures IP resolutions for localhost and facebook.com
+
+# Change localhost resolution to 127.0.0.2
+sudo echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts
+
+# Change facebook.com resolution to 8.8.8.8
+sudo sed -i 's/^.*facebook.com.*$/8.8.8.8 facebook.com/' /etc/hosts
+
