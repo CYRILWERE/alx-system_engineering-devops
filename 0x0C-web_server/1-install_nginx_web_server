@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script installs nginx on a new Ubuntu machine and configures it to meet specified requirements
+
+# Install nginx with the -y option to avoid prompting for confirmation
+apt-get update
+apt-get install -y nginx
+
+# Create a default index.html file with "Hello World!" content
+echo "Hello World!" > /var/www/html/index.html
+
+# Restart nginx without using systemctl
+service nginx restart > /dev/null 2>&1 || /etc/init.d/nginx restart > /dev/null 2>&1
+
+
