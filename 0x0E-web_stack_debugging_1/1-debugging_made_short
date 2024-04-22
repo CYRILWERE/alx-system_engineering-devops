@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script fixes the issue with Nginx not listening on port 80
+sed -i '/listen 80 default_server;/ s/# *//' /etc/nginx/sites-available/default
+nginx -s reload
+
